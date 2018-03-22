@@ -1,0 +1,64 @@
+/*Color Palatte
+#F8F8F8- gray
+#EB5757 - red
+#007AFF - blue
+#979797 - dark gray stroke
+-------------*/
+
+
+/*Global Styles
+------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #007AFF;
+}
+
+/*End of Global Styles-----------------------------*/
+
+.container {
+  width: 375px;
+  height: 800px;
+  background-color: green;
+  margin: auto;
+}
+
+
+/*Top Navigation Bar------------*/
+.top {
+/* Top Background */
+position: fixed;
+width: 375px;
+height: 64px;
+margin-top: 0;
+background: #F8F8F8;
+}
+
+.top_components {
+  display: inline-block
+  margin-top: 3px;
+
+}
