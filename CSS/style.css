@@ -19,11 +19,14 @@ html {
 body {
   font-family: -apple-system, 'Helvetica Neue', sans-serif;
   font-size: 16px;
+  line-height: 0px;
 }
 
 h1 {
   font-size: 22px;
   font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 1.45%;
 }
 
 h2 {
@@ -32,33 +35,181 @@ h2 {
 }
 
 h3 {
-  font-size: 17px;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height:0px;
+  letter-spacing: -0.02em;
   color: #007AFF;
 }
 
-/*End of Global Styles-----------------------------*/
+h4 {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 0px;
+  font-size: 12px;
+}
+
+h5 {
+font-style: italic;
+font-weight: 300;
+line-height: 0px;
+font-size: 12px;
+color: #EB5757;
+}
+
+
+/*END of Global Styles-----------------------------*/
 
 .container {
+    width: 375px;
+    height: 800px;
+    margin:auto;
+    border-style: solid;
+    border-width: thin;
+    border-color: #979797
+  }
+
+.nav{
+  position: fixed;
+  height: 64px;
   width: 375px;
-  height: 800px;
-  background-color: green;
-  margin: auto;
+  background-color: #F8F8F8;
+  box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(27.1828px);
+}
+
+.statusbar{
+  float:left;
+
 }
 
 
-/*Top Navigation Bar------------*/
-.top {
-/* Top Background */
-position: fixed;
-width: 375px;
-height: 64px;
-margin-top: 0;
-background: #F8F8F8;
+.back{
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-style: solid;
+  border-color: salmon;
 }
 
-.top_components {
-  display: inline-block
-  margin-top: 3px;
+.stopname{
+  float: left;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-style: solid;
+  border-color: salmon;
+}
 
+.done {
+  float:left;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-style: solid;
+  border-color: salmon;
+
+}
+
+.east{
+  position: relative;
+  height: 230px;
+  width: 375px;
+  border-style: solid;
+  border-color: salmon;
+}
+
+.north{
+  position: relative;
+  height: 100px;
+  width: 375px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.south{
+  position: relative;
+  height: 150px;
+  width: 375px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.reroute{
+  position: relative;
+  height: 90px;
+  width: 375px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.out{
+  position: relative;
+  height: 200px;
+  width: 375px;
+  border-style: solid;
+  border-color: blue;
+}
+
+.number {
+float: left;
+margin-left: 5px;
+width: 72px;
+height: 28px;
+background-color: #EFEFF4;
+border-radius: 23px;
+text-align: center;
+
+
+}
+
+.destination {
+  float: left;
+  position: relative;
+  margin-left: 10px;
+
+}
+
+.frequency {
+  width: 110px;
+  height: 30px;
+  text-align: right;
+  position: relative;
+  float:right;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  border-style: solid;
+  border-color: pink;
+}
+
+.location {
+  float:right;
+  clear:right;
+  margin-left: 10px;
+  margin-top: 0px;
+  border-style: solid;
+  border-color: pink;
+
+}
+
+.head {
+  position: relative;
+  height: 50px;
+  width: 375px;
+  border-style: solid;
+  border-color: red;
+  margin-top: 80px;
+  text-align: left;
+
+}
+
+.listing {
+  float:left;
+  position: relative;
+  height: 50px;
+  width: 375px;
+  border-style: solid;
+  border-color: orange;
+  text-align: left;
+  vertical-align: middle;
 }
