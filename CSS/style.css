@@ -12,7 +12,7 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+border-box, *:before, *:after {
   box-sizing: inherit;
 }
 
@@ -53,7 +53,6 @@ h4 {
 h5 {
 font-style: italic;
 font-weight: 300;
-line-height: 0px;
 font-size: 12px;
 color: #EB5757;
 }
@@ -63,7 +62,7 @@ color: #EB5757;
 
 .container {
     width: 375px;
-    height: 800px;
+    height: 900px;
     margin:auto;
     border-style: solid;
     border-width: thin;
@@ -81,85 +80,76 @@ color: #EB5757;
 
 .statusbar{
   float:left;
+  max-width: 375px;
 
 }
 
+.arrow {
+  float:left;
+  margin-top: 16px;
+  margin-left: 10px;
+}
 
 .back{
   float: left;
-  margin-left: 20px;
+  margin-left: 7px;
   margin-top: 10px;
-  border-style: solid;
-  border-color: salmon;
+
 }
 
 .stopname{
   float: left;
   margin-left: 40px;
   margin-top: 10px;
-  border-style: solid;
-  border-color: salmon;
+
 }
 
 .done {
   float:left;
   margin-left: 50px;
   margin-top: 10px;
-  border-style: solid;
-  border-color: salmon;
 
 }
 
 .east{
-  position: relative;
-  height: 230px;
+  height: 160px;
   width: 375px;
-  border-style: solid;
-  border-color: salmon;
+
+
 }
 
 .north{
-  position: relative;
   height: 100px;
   width: 375px;
-  border-style: solid;
-  border-color: blue;
 }
 
 .south{
-  position: relative;
   height: 150px;
   width: 375px;
-  border-style: solid;
-  border-color: blue;
+
 }
 
 .reroute{
-  position: relative;
   height: 90px;
   width: 375px;
-  border-style: solid;
-  border-color: blue;
+
 }
 
 .out{
-  position: relative;
   height: 200px;
   width: 375px;
-  border-style: solid;
-  border-color: blue;
+  clear:both;
+
 }
 
 .number {
 float: left;
-margin-left: 5px;
+margin-left: 10px;
 width: 72px;
 height: 28px;
 background-color: #EFEFF4;
 border-radius: 23px;
 text-align: center;
-
-
 }
 
 .destination {
@@ -172,14 +162,11 @@ text-align: center;
 .frequency {
   width: 110px;
   height: 30px;
+  margin-left: 230px;
   text-align: right;
-  position: relative;
-  float:right;
   margin-top: -10px;
   margin-bottom: 10px;
   margin-right: 12px;
-  border-style: solid;
-  border-color: pink;
 }
 
 .location {
@@ -193,33 +180,35 @@ text-align: center;
 }
 
 .head {
-  position: relative;
   height: 50px;
   width: 375px;
-  border-style: solid;
-  border-color: red;
   margin-top: 80px;
+  margin-left: 20px;
+  text-align: left;
+
+}
+
+.headother {
+  height: 50px;
+  width: 375px;
+  margin-left: 20px;
   text-align: left;
 
 }
 
 .listing {
-  float:left;
-  position: relative;
   height: 50px;
   width: 375px;
-  border-style: solid;
-  border-color: orange;
   text-align: left;
   vertical-align: middle;
 }
 
 .line {
-float: right;
-position: relative;
 width: 265px;
 height: 28px;
+margin-right: 20px;
 border-top-style: solid;
 border-top-width: thin;
-border-top-color: #979797;
+border-top-color: #BCBBB1;
+float:right;
 }
