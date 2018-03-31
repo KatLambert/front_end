@@ -1,6 +1,6 @@
 /*Color Palette
 #F8F8F8- gray
-#EB5757 - red
+#EB5252 - red
 #007AFF - blue
 #979797 - dark gray stroke
 -------------*/
@@ -18,7 +18,7 @@ border-box, *:before, *:after {
 
 body {
   font-family: -apple-system, 'Helvetica Neue', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 0px;
 }
 
@@ -45,11 +45,10 @@ h2 {
 
 h3 {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height:0px;
   letter-spacing: -0.02em;
-  color: #007AFF;
 }
 
 h4 {
@@ -86,15 +85,17 @@ hr {
 
 /*END of Global Styles-----------------------------*/
 .when {
-font-size: .80em
+font-size: .80em;
+font-weight: 500;
+
 }
 
 .where {
   font-size: .80em;
   font-style: italic;
+  color: #979797;
   font-weight: 300;
-  color: #EB5757;
-  line-height: .50em;
+  padding-top: 3px;
 }
 
 .container {
@@ -132,6 +133,8 @@ font-size: .80em
   margin-left: 7px;
   margin-top: 10px;
   padding-top: 15px;
+  font-weight: 400;
+  color: #007AFF;
 }
 
 .done {
@@ -139,6 +142,8 @@ font-size: .80em
   margin-left: 50px;
   margin-top: 10px;
   padding-top: 15px;
+  font-weight: 400;
+  color: #007AFF;
 }
 
 .east{
@@ -175,6 +180,7 @@ font-size: .80em
   margin-left: 10px;
   width: 72px;
   height: 28px;
+  color: black;
   background-color: #EFEFF4;
   border-radius: 23px;
   text-align: center;
