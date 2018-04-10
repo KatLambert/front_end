@@ -147,11 +147,12 @@ font-weight: 500;
 }
 
 .east{
+  margin-top:90px;
   height: 120px;
   width: 375px;
 }
 
-.north{
+.north.reroute{
   height: 70px;
   width: 375px;
   clear:both;
@@ -159,12 +160,6 @@ font-weight: 500;
 
 .south{
   height: 120px;
-  width: 375px;
-  clear:both;
-}
-
-.reroute{
-  height: 70px;
   width: 375px;
   clear:both;
 }
